@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalinga Bikash Computers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f9f9ff;
+      color: #1e1e2f;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #002c57, #005b96);
+      color: white;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+    }
+    .cta-button {
+      margin-top: 1.5rem;
+      background: #ff3e57;
+      color: white;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background: #e6334d;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section h2 {
+      font-size: 2.25rem;
+      margin-bottom: 1.5rem;
+      color: #002c57;
+      text-align: center;
+    }
+    .courses, .branches {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    .card-title {
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #333;
+    }
+    .contact-form {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1.25rem;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background: #005b96;
+      color: white;
+      padding: 0.9rem 1.8rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .contact-form button:hover {
+      background: #00487a;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #002c57;
+      color: white;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kalinga Bikash Computers</h1>
+    <p>Empowering Your Future in Technology</p>
+    <button class="cta-button">Join Now</button>
+  </header>
+
+  <section class="section">
+    <h2>About KBC</h2>
+    <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+      Kalinga Bikash Computers (KBC) is a leading institute offering certified IT training since 1996. With a commitment to excellence, we offer career-building programs in computer technology and software that help individuals and professionals thrive in the digital age.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Popular Courses</h2>
+    <div class="courses">
+      <div class="card"><div class="card-title">PGDCA</div></div>
+      <div class="card"><div class="card-title">DCA</div></div>
+      <div class="card"><div class="card-title">Tally with GST</div></div>
+      <div class="card"><div class="card-title">Computer Hardware</div></div>
+      <div class="card"><div class="card-title">AutoCAD</div></div>
+      <div class="card"><div class="card-title">C, C++</div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Our Branches</h2>
+    <div class="branches">
+      <div class="card"><div class="card-title">Bhubaneswar</div></div>
+      <div class="card"><div class="card-title">Kendrapara</div></div>
+      <div class="card"><div class="card-title">Jajpur</div></div>
+      <div class="card"><div class="card-title">Balasore</div></div>
+      <div class="card"><div class="card-title">Mayurbhanj</div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email" />
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button>Send Message</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kalinga Bikash Computers. All rights reserved.</p>
+  </footer>
+</body>
+</html>
